@@ -18,6 +18,7 @@ html{
     position: fixed;
     left: 0%;
     right: 0;
+    z-index: 999;
 
 }
 body{
@@ -127,4 +128,17 @@ box-shadow: 1px 1px 10px 1px black;
 }
 .parrafo-portafolio{
     margin-bottom: 1rem;
+}
+/* Aqui inicia la sesion de contacto */
+
+.form_contacto
+{
+    background-color:;
+    padding: 3rem;
+display: flex;
+flex-direction: column;
+gap: .5rem;
+box-shadow: 1px 1px 10px 1px rgb(78,69,69);
+margin-top: 2rem;
+width: 70%;
 }
